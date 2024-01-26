@@ -58,8 +58,8 @@ export default function Marketplace() {
   return (
     <Box pt={{ base: "180px", md: "80px", xl: "80px" }}>
       <TradingViewWidget
-          symbol="CO2"
-          theme={Themes.DARK}
+          symbol="TSX:CARB"
+          theme={Themes.LIGHT}
           locale="fr"
           width="100%"
         />
