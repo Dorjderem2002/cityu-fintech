@@ -84,7 +84,7 @@ export default function ColumnsTable(props) {
                     align='center'
                     fontSize={{ sm: "10px", lg: "12px" }}
                     color='gray.400'>
-                    {column.render("Header")}
+                    {column.render("Header") == "PROGRESS" ? "SIMILARITY" : column.render("Header")}
                   </Flex>
                 </Th>
               ))}
@@ -103,37 +103,6 @@ export default function ColumnsTable(props) {
                       <Text color={textColor} fontSize='sm' fontWeight='700'>
                         {cell.value}
                       </Text>
-                    );
-                  } else if (cell.column.Header === "STATUS") {
-                    data = (
-                      <Flex align='center'>
-                        <Icon
-                          w='24px'
-                          h='24px'
-                          me='5px'
-                          color={
-                            cell.value === "Approved"
-                              ? "green.500"
-                              : cell.value === "Disable"
-                              ? "red.500"
-                              : cell.value === "Error"
-                              ? "orange.500"
-                              : null
-                          }
-                          as={
-                            cell.value === "Approved"
-                              ? MdCheckCircle
-                              : cell.value === "Disable"
-                              ? MdCancel
-                              : cell.value === "Error"
-                              ? MdOutlineError
-                              : null
-                          }
-                        />
-                        <Text color={textColor} fontSize='sm' fontWeight='700'>
-                          {cell.value}
-                        </Text>
-                      </Flex>
                     );
                   } else if (cell.column.Header === "DATE") {
                     data = (

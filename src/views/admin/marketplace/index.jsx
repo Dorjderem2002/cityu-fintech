@@ -42,7 +42,7 @@ import NFT from "components/card/NFT";
 import Card from "components/card/Card.js";
 
 // Assets
-import TradingViewWidget, { Themes } from 'react-tradingview-widget';
+import TradingViewWidget, { Themes, BarStyles } from 'react-tradingview-widget';
 
 export default function Marketplace() {
   // Chakra Color Mode
@@ -55,7 +55,7 @@ export default function Marketplace() {
           theme={Themes.LIGHT}
           locale="fr"
           width="100%"
-          
+          style="2"
         />
     </Box>
   );
