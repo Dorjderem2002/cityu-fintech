@@ -14,7 +14,7 @@ export function SidebarBrand() {
   return (
     <Flex align='center' direction='column'>
       <div>
-      <span style={{ fontSize: '34px', fontWeight: 'bold' }}>Apollo Carbon</span>
+      <span style={{ fontSize: '34px', fontWeight: 'bold' }}>DorjExchange</span>
     </div>
       <HSeparator mb='20px' />
     </Flex>

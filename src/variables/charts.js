@@ -254,11 +254,11 @@ export const pieChartData = [63, 25, 12];
 export const lineChartDataTotalSpent = [
   {
     name: "US",
-    data: [50, 64, 48, 66, 49, 68],
+    data: [20, 25, 48, 36, 58, 62],
   },
   {
     name: "China",
-    data: [30, 40, 24, 46, 20, 46],
+    data: [30, 68, 45, 23, 78, 25],
   },
 ];
 
@@ -337,11 +337,11 @@ export const lineChartOptionsTotalSpent = {
 export const lineChartDataTotalSpentC = [
   {
     name: "US",
-    data: [50, 114, 162, 228, 277, 345],
+    data: [20, 45, 93, 129, 187, 249],
   },
   {
     name: "China",
-    data: [30, 70, 94, 140, 160, 206],
+    data: [30, 98, 143, 166, 244, 269],
   },
 ];
 

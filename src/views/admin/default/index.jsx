@@ -151,13 +151,7 @@ export default function UserReports() {
         <TotalSpent />
         <TotalSpentC />
         <WeeklyRevenue />
-      </SimpleGrid>
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
         <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-          <DailyTraffic />
-          <PieCard />
-        </SimpleGrid>
       </SimpleGrid>
       <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
         <ComplexTable
@@ -166,7 +160,7 @@ export default function UserReports() {
         />
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
           <Tasks />
-          <MiniCalendar h='100%' minW='100%' selectRange={false} />
+          <DailyTraffic />
         </SimpleGrid>
       </SimpleGrid>
     </Box>
