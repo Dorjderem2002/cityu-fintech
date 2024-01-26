@@ -35,7 +35,7 @@ export default function Conversion(props) {
         />
 
         <Text color={textColor} fontSize='lg' fontWeight='700'>
-          Tasks
+          Carbon Tasks
         </Text>
         <Menu ms='auto' />
       </Flex>
@@ -47,7 +47,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Landing Page Design
+            Relevance
           </Text>
           <Icon
             ms='auto'
@@ -64,7 +64,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Dashboard Builder
+            Completeness
           </Text>
           <Icon
             ms='auto'
@@ -81,7 +81,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Mobile App Design
+            Consistency
           </Text>
           <Icon
             ms='auto'
@@ -98,7 +98,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Illustrations
+            Transparency
           </Text>
           <Icon
             ms='auto'
@@ -115,7 +115,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Promotional LP
+            Accuracy
           </Text>
           <Icon
             ms='auto'
