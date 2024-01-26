@@ -84,7 +84,7 @@ export default function ColumnsTable(props) {
                     align='center'
                     fontSize={{ sm: "10px", lg: "12px" }}
                     color='gray.400'>
-                    {column.render("Header")}
+                    {column.render("Header") == "PROGRESS" ? "SIMILARITY" : column.render("Header")}
                   </Flex>
                 </Th>
               ))}
