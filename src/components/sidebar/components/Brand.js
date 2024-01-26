@@ -13,7 +13,9 @@ export function SidebarBrand() {
 
   return (
     <Flex align='center' direction='column'>
-      <HorizonLogo h='26px' w='175px' my='32px' color={logoColor} />
+      <div>
+      <span style={{ fontSize: '34px', fontWeight: 'bold' }}>Apollo Carbon</span>
+    </div>
       <HSeparator mb='20px' />
     </Flex>
   );
