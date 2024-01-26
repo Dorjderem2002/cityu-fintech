@@ -1,68 +1,62 @@
 [
   {
-    "name":"Marketplace",
-    "tech": ["apple","android","windows"], 
-    "date": "12.Jan.2021",
-    "progress": 75.5  
+    "name": [
+      "LSTM(RNN)",
+      false
+    ],
+    "tech": [],
+    "quantity": 2458,
+    "date": "88.33%",
+    "progress": 10.38
   },
   {
-    "name":"Venus DB PRO",
-    "tech": ["apple" ], 
-    "date": "21.Feb.2021",
-    "progress": 35.4  
+    "name": [
+      "ARIMA(3,1,4)",
+      true
+    ],
+    "tech": [],
+    "quantity": 1485,
+    "date": "91.97%",
+    "progress": 61.39
   },
   {
-    "name":"Venus DS",
-    "tech": ["apple" ,"windows"], 
-    "date": "13.Mar.2021",
-    "progress": 25  
+    "name": [
+      "Auto Regressor",
+      true
+    ],
+    "tech": [],
+    "quantity": 1024,
+    "date": "99.78%",
+    "progress": 22.31
   },
   {
-    "name":"Venus 3D Asset",
-    "tech": ["apple","android","windows"], 
-    "date": "24.Jan.2021",
-    "progress": 100  
+    "name": [
+      "Single Exponential Smoothing",
+      true
+    ],
+    "tech": [],
+    "quantity": 858,
+    "date": "96.82%",
+    "progress": 85.02
   },
   {
-    "name":"Marketplace",
-    "tech": ["apple", "windows"], 
-    "date": "Oct 24, 2022",
-    "progress": 75.5  
+    "name": [
+      "Triple Exponential Smoothing",
+      false
+    ],
+    "tech": [],
+    "quantity": 258,
+    "date": "102.29%",
+    "progress": 92.99
   },
   {
-    "name":"Marketplace",
-    "tech": ["apple","android","windows"], 
-    "date": "Oct 24, 2022",
-    "progress": 75.5  
-  },
-  {
-    "name":"Marketplace",
-    "tech": ["apple","android","windows"], 
-    "date": "12.Jan.2021",
-    "progress": 75.5  
-  },
-  {
-    "name":"Venus DB PRO",
-    "tech": ["apple" ], 
-    "date": "21.Feb.2021",
-    "progress": 35.4  
-  },
-  {
-    "name":"Venus DS",
-    "tech": ["apple" ,"windows"], 
-    "date": "13.Mar.2021",
-    "progress": 25  
-  },
-  {
-    "name":"Venus 3D Asset",
-    "tech": ["apple","android","windows"], 
-    "date": "24.Jan.2021",
-    "progress": 100  
-  },
-  {
-    "name":"Marketplace",
-    "tech": ["apple", "windows"], 
-    "date": "Oct 24, 2022",
-    "progress": 75.5  
+    "name": [
+      "Double Exponential Smoothing",
+      false
+    ],
+    "tech": [],
+    "quantity": 258,
+    "date": "149.08%",
+    "progress": 100
   }
 ]
