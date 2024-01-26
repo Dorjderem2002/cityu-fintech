@@ -7,6 +7,7 @@ import {
   MdHome,
   MdLock,
   MdOutlineShoppingCart,
+  MdSettings,
 } from "react-icons/md";
 
 // Admin Imports
@@ -21,14 +22,14 @@ import SignInCentered from "views/auth/signIn";
 
 const routes = [
   {
-    name: "Main Dashboard",
+    name: "Dashboard",
     layout: "/admin",
     path: "/default",
     icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
     component: MainDashboard,
   },
   {
-    name: "NFT Marketplace",
+    name: "Marketplace",
     layout: "/admin",
     path: "/nft-marketplace",
     icon: (
@@ -57,10 +58,10 @@ const routes = [
     component: Profile,
   },
   {
-    name: "Sign In",
+    name: "Settings",
     layout: "/auth",
     path: "/sign-in",
-    icon: <Icon as={MdLock} width='20px' height='20px' color='inherit' />,
+    icon: <Icon as={MdSettings} width='20px' height='20px' color='inherit' />,
     component: SignInCentered,
   },
   {
