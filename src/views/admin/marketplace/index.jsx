@@ -42,13 +42,6 @@ import NFT from "components/card/NFT";
 import Card from "components/card/Card.js";
 
 // Assets
-import Avatar1 from "assets/img/avatars/avatar1.png";
-import Avatar2 from "assets/img/avatars/avatar2.png";
-import Avatar3 from "assets/img/avatars/avatar3.png";
-import Avatar4 from "assets/img/avatars/avatar4.png";
-import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTopCreators.json";
-import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
-
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
 export default function Marketplace() {
@@ -58,10 +51,11 @@ export default function Marketplace() {
   return (
     <Box pt={{ base: "180px", md: "80px", xl: "80px" }}>
       <TradingViewWidget
-          symbol="CO2"
+          symbol="TSX:CARB"
           theme={Themes.DARK}
           locale="fr"
           width="100%"
+          
         />
     </Box>
   );

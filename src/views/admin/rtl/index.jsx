@@ -94,7 +94,7 @@ export default function UserReports() {
             />
           }
           name='Spend this month'
-          value='$642.39'
+          value='$642.39K'
         />
         <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
         <MiniStatistics

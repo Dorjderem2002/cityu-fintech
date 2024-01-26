@@ -29,7 +29,7 @@ export default function DailyTraffic(props) {
               color='secondaryGray.600'
               fontSize='sm'
               fontWeight='500'>
-              Daily Traffic
+              Carbon Tokens
             </Text>
           </Flex>
           <Flex align='end'>
@@ -40,13 +40,7 @@ export default function DailyTraffic(props) {
               lineHeight='100%'>
               2.579
             </Text>
-            <Text
-              ms='6px'
-              color='secondaryGray.600'
-              fontSize='sm'
-              fontWeight='500'>
-              Visitors
-            </Text>
+            
           </Flex>
         </Flex>
         <Flex align='center'>
