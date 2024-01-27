@@ -26,6 +26,7 @@ import DevelopmentTable from "views/admin/dataTables/components/DevelopmentTable
 import CheckTable from "views/admin/dataTables/components/CheckTable";
 import ColumnsTable from "views/admin/dataTables/components/ColumnsTable";
 import ComplexTable from "views/admin/dataTables/components/ComplexTable";
+import graph from "assets/img/graph.jpeg"
 import {
   columnsDataDevelopment,
   columnsDataCheck,
@@ -51,15 +52,12 @@ export default function Settings() {
           tableData={tableDataDevelopment}
         />
         <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <ColumnsTable
-          columnsData={columnsDataColumns}
-          tableData={tableDataColumns}
-        />
-        <ComplexTable
-          columnsData={columnsDataComplex}
-          tableData={tableDataComplex}
-        />
+
+
       </SimpleGrid>
+      <div >
+        <img src={graph} alt="My Image" />
+      </div>
     </Box>
   );
 }
